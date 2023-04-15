@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/createpost.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><a href="/blog">Blog</a></div>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="posts.php">Posts</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form action="create_post.php" method="post" enctype="multipart/form-data" class="post-form">
+        <h2>Publish new post</h2>
+        <label for="title" class="post-label">Title:</label>
+        <input type="text" id="title" name="title" class="post-input">
+
+        <label for="content" class="post-label">Content:</label>
+        <textarea id="content" name="content" class="post-input"></textarea>
+
+        <label for="photo" class="post-label">Photo:</label>
+        <input type="file" id="photo" name="photo" class="post-input">
+
+        <label for="category" class="post-label">Category:</label>
+        <input type="text" id="category" name="category" class="post-input">
+
+        <label for="author-name" class="post-label">Author Name:</label>
+        <input type="text" id="author-name" name="author-name" class="post-input">
+
+        <button type="submit">Save changes</button>
+
+    </form>
+
+
+</body>
+
+</html>

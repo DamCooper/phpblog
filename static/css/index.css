@@ -1,0 +1,45 @@
+.main {
+  background: url('/blog/static/img/mainbg.jpg');
+  background-size: cover;
+  height: 93vh;
+}
+
+.main .content {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* set a semi-transparent black color */
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+
+.slogan {
+  font-size: 3em;
+  color: hsl(0, 0%, 95%);
+}
+
+.slogan span {
+  color: hsl(271, 57%, 57%);
+}
+
+
+.main a {
+  color: black;
+  text-decoration: none;
+}
+
+.main button:hover {
+  cursor: pointer;
+}
+
+.recent {
+  padding: 20px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.recent h2 {
+  text-align: center;
+}

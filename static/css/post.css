@@ -1,0 +1,163 @@
+
+h2 {
+    font-size: 36px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+i {
+    padding-right: 5px;
+}
+
+.modify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 7px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    height: 400px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.info {
+    display: flex;
+}
+
+
+.category {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.published {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.comments h3 {
+    padding-bottom: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: beige;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 60%;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment small {
+    padding-top: 2px;
+    align-self: flex-end;
+}
+
+.comment a {
+    text-align: right;
+    z-index: 1;
+    width: 7ch;
+    cursor: pointer;
+}
+
+.comment .trash {
+    /* margin-bottom: -1em; */
+}
+
+.comment textarea {
+    padding-top: 5px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+
+.comment .modify {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+}
+
+.comment input[type=submit] {
+    display: none;
+}
+
+.comment img {
+    width: 30px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 50%;
+}
+
+.comment .img {
+    align-self: flex-start;
+  
+}
+
+.addCommentForm {
+    background: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10%;
+    align-items: center;
+}
+.addCommentForm input {
+    width: 40ch;
+    height: 2em;
+    padding: 5px;
+}
+.addCommentForm textarea {
+    padding: 1em;
+    width: 80ch;
+    height: 20ch;
+    resize: none;
+}
+
+.addCommentForm input[type=submit] {
+    width: max-content;
+}
