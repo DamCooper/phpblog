@@ -109,8 +109,8 @@
 
 
     <script>
-        const comments = document.querySelectorAll("textarea");
-        const edits = document.querySelectorAll(`a[class="edit"`);
+        const comments = document.querySelectorAll("textarea[name='new_content']");
+        const edits = document.querySelectorAll(`a[class="edit"]`);
 
 
         for (let i = 0; i < comments.length; i++) {
